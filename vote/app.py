@@ -5,8 +5,8 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Amazon Echo")
-option_b = os.getenv('OPTION_B', "Google Home")
+option_a = os.getenv('OPTION_A', "EMACS")
+option_b = os.getenv('OPTION_B', "VI")
 hostname = socket.gethostname()
 version = 'v2'
 
